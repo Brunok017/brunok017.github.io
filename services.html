@@ -1,0 +1,159 @@
+<!--BoilerPlate-->
+<!DOCTYPE html>
+<html lang="en">
+<!--Header-->
+<head>
+    <title>BrungasBikes.com/services</title>
+    <meta name="description" content="A bike shop specializing in repairs, services, rentals and more">
+    <meta name="keywords" content="Kieszkowski, , Repair, FlatTire, Chain, Rust,">
+    <link rel="stylesheet" href="./styles/slicknav.min.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="icon" type="image/webp" href="./images/bicycle-hd-png-hd-bike-clipart-free-download-6305.webp">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+        }); 
+    </script>
+</head>
+<!--Body-->
+<body>
+    <nav id="mobile_menu"></nav> 
+    <nav id="nav_menu"> 
+        <ul>
+            <li><a href="index.html">Home</a></li> 
+            <li><a href="sales.html">Shop</a></li> 
+            <li><a href="rentals.html" >Rentals</a></li>
+            <li><a href="services.html" class="current" >Services</a></li> 
+            <li><a href="contact.html"  class="lastitem">Contact</a></li>
+        </ul> 
+    </nav>
+<!--Rolling Img-->
+    <img class=Roll id="IMG" src="./images/5iRXq8goT.webp">
+
+    <p>
+<!--MainImg-->
+    <img class="Service"src="./images/bicycle-shop.webp">
+<!--Table-->
+    <figure>
+        <table>
+                <legend>Repairs and Services</legend>
+            <tr>
+                <th>Adjustment</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Estimated Time</th>
+                <th>Part(s) Required</th>
+                <th>Coupon Elligible</th>
+                <th>Part Cost</th>
+            </tr>
+            <tr>
+                <td>Tire</td>
+                <td>Changes Flat Tire or Alligns Tire</td>
+                <td>$15</td>
+                <td>30mins-1Hour</td>
+                <td>InnerTube</td>
+                <td>Yes</td>
+                <td>$15</td>
+            </tr>
+            <tr>
+                <td>Brakes</td>
+                <td>Adjusts brakes for your bikes</td>
+                <td>$15</td>
+                <td>30mins</td>
+                <td>BreakPads</td>
+                <td>Yes</td>
+                <td>$10</td>
+            </tr>
+            <tr>
+                <td>HandleBars</td>
+                <td>Adjusts HandleBar Height or Position</td>
+                <td>$15</td>
+                <td>30mins</td>
+                <td>N/A</td>
+                <td>Yes</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>Seat</td>
+                <td>Adjustment of Seat or Seatpost</td>
+                <td>$15</td>
+                <td>15mins</td>
+                <td>N/A</td>
+                <td>No</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>Gears</td>
+                <td>Callibration of Gears</td>
+                <td>$15</td>
+                <td>1Hour</td>
+                <td>N/A</td>
+                <td>No</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>Derailer</td>
+                <td>Tunes up Derailer</td>
+                <td>$15</td>
+                <td>1Hour</td>
+                <td>N/A</td>
+                <td>Yes</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>Crank Adjustment</td>
+                <td>Adjusts Pedal Crank</td>
+                <td>$15</td>
+                <td>30mins</td>
+                <td>N/A</td>
+                <td>Yes</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>Cleaning</td>
+                <td>Cleans any Mud, Grim, or Rust off</td>
+                <td>$15</td>
+                <td>30mins</td>
+                <td>N/A</td>
+                <td>Yes</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>Lubing</td>
+                <td>Grease and Lube any part of bike</td>
+                <td>$15</td>
+                <td>15mins</td>
+                <td>ChainLube</td>
+                <td>No</td>
+                <td>$5</td>
+            </tr>
+            <tr>
+                <td>Miscellaneous Repair</td>
+                <td>Repair or Replace any part of the bike not listed here</td>
+                <td>Variable</td>
+                <td>Variable</td>
+                <td>Variable</td>
+                <td>No</td>
+                <td>Variable</td>
+            </tr>
+        </table>
+        <figcaption>Sameday repairs must be recieved by 5pm. Each repair has a default price of $15 with an additional labor fee and extra part fee to be determined after the repair. Times are estimates and not entirly accurate. Coupons may only be used if elligible</figcaption>
+    </figure>    
+
+<!--JavaScript for Rolling Image-->
+    <script>
+        document.getElementById("IMG").addEventListener("mouseover", changeimage);
+    
+    function changeimage() {
+    
+        var image = document.getElementById("IMG").src = "./images/bicycle_PNG102571.webp" ;
+    }
+    </script>
+</body>
+<!--Bruno Kieszkowski 
+    Southern Illinois University Carbondale
+    Date Developed 3/26/24
+    Date Tested 3/26/24
+-->

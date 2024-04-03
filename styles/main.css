@@ -1,0 +1,241 @@
+/*This is my comment Header
+This Page was made by Bruno Kieszkowski for Lab#3
+
+*/
+
+
+/*html */
+html {
+    margin: 10px;
+}
+/*body */
+body {
+    max-width: 725px;
+    margin: 10px;
+    background-color: antiquewhite;
+    font-size: 1em;
+    
+}
+
+/* header 1*/
+h1 {
+    padding: 10px;
+    background-color: turquoise;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+/* Header 2*/
+h2 {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 0;
+    background-color: cadetblue;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 5px 5px 10px black;
+    color: white;
+    padding:10px;
+    margin-bottom: 30px;
+}
+
+/* Header 3 */
+h3{
+    padding: 10px;
+    text-align: left;
+    margin-top: 0;
+    background-color: cadetblue;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Most Images use this style*/
+.feat {
+    border:  5px solid deeppink;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: white;
+    position: relative;
+    width: 100%;
+    max-width: 175px;
+}
+
+/* Paragraphs*/
+p {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Title Image*/
+.mainimg {
+    margin-top: 10px;
+    border: 5px solid turquoise;
+    border-radius: 10%;
+    position: relative;
+    width: 100%;
+    max-width: 725px;
+    position: relative;
+}
+
+/* MainGraphic*/
+.Roll {
+    width: 100%;
+    max-width: 70px;
+    margin-top: 10px;
+    background-color: white;
+    border: 5px solid turquoise;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Video*/
+.vid {
+    width: 100%;
+    max-width: 1000px;
+}
+
+/* AnyGraphic*/
+.graphic {
+    width: 100%;
+    max-width: 70px;
+    float: right;
+}
+
+/* For setting up columns*/
+.column {
+    background-color: turquoise;
+    float: left;
+    width: 50%;
+}
+
+/* For setting up rows*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* My text boxes in the rentals*/
+.tex {
+    border: 5px solid cadetblue;
+    background-color: white;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* I used your padding for the lists*/
+ul { 
+    
+    padding-left: 10px; } 
+
+li {
+    padding-left: 10px; 
+   
+} 
+
+/*Style for Table*/
+
+table {
+    border: 5px cadetblue solid;
+    background-color: cadetblue;
+    position: relative;
+    width: 100%;
+}
+
+/*Legend which is my header*/
+legend {
+    background-color: turquoise;
+    color: aliceblue;
+    font-size: 1em;
+    width: 100%;
+    width: 150px;
+    font-weight: bold;
+    border: 5px solid cadetblue;
+}
+
+/*Headings for table*/
+th {
+    background-color: cadetblue;
+    color: aliceblue;
+}
+
+/*Rows for Table*/
+tr {
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+}
+/*FigCaption which is my footer*/
+figcaption {
+    text-align: center;
+    background-color: aliceblue;
+    border: 5px cadetblue solid;
+    border-top: 0;
+}
+/*Service img*/
+.Service {
+    width: 100%;
+    position: relative;
+}
+
+/* Made changes to the nav menu*/
+#nav_menu ul {
+    margin-top: 0;
+    list-style-type: none; padding: 1em 0;
+    font-size: 1.5em;
+    text-align: left;
+    background-color: blueviolet;
+    } 
+#nav_menu ul li { 
+   display: inline; 
+   padding: 0 1em; } 
+#nav_menu ul li a { 
+   font-weight: bold; 
+   color: white;
+
+}
+#nav_menu ul li a.current { text-decoration: none; }
+
+
+/* Used your code for the media queries*/
+
+@media only screen and (max-width: 2024px) { 
+    #mobile_menu { display: none; }    
+}
+/* tablet portrait layout (768px to 959px) */
+@media only screen and (max-width: 959px) { 
+    #mobile_menu { display: none; } 
+}
+/* mobile landscape layout (480px to 767px) */ 
+
+@media only screen and (max-width: 767px) { 
+    #mobile_menu { display: block; }
+    #nav_menu { display: none; }
+    header h2 { font-size: 1.375em; }       /* 22 ÷ 16 */ 
+    header h3 { font-size: .8125em; }   /* 13 ÷ 16 */ 
+    p { font-size: .875em; }            /* 14 ÷ 16 */ 
+    article h1, main h2, aside h2
+        { font-size: 1em; }             /* base font size */ 
+    aside li { font-size: .875em; }     /* 14 ÷ 16 */
+    
+}
+/* mobile portrait layout (479px or less) */ 
+
+@media only screen and (max-width: 479px) { 
+    #mobile_menu { display: block; }
+    #nav_menu { display: none; }
+    header h2 { font-size: 1.375em; }   /* 22 ÷ 16 */ 
+    header h3 { font-size: .8125em; }   /* 13 ÷ 16 */ 
+    p { font-size: .875em; }            /* 14 ÷ 16 */ 
+    article h1, main h2, aside h2 
+        { font-size: 1em; }             /* base font size */ 
+    aside li { font-size: .875em; }     /* 14 ÷ 16 */ 
+  
+}

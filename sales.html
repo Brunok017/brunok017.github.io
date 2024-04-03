@@ -1,0 +1,49 @@
+<head>
+    <title>BrungasBikes.com/shop</title>
+    <meta name="description" content="A bike shop specializing in repairs, services, rentals and more">
+    <meta name="keywords" content="Brungas, Trek, BMX, Bikes, RoadBike">
+    <link rel="stylesheet" href="./styles/slicknav.min.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="icon" type="image/webp" href="./images/bicycle-hd-png-hd-bike-clipart-free-download-6305.webp">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+        }); 
+    </script>
+
+</head>
+<!--Body-->
+<body> 
+<!--Title-->   
+<h1 >Brungas Bikes</h1>
+<nav id="mobile_menu"></nav> 
+<nav id="nav_menu"> 
+    <ul>
+        <li><a href="index.html" >Home</a></li> 
+        <li><a href="sales.html" class="current">Shop</a></li> 
+        <li><a href="rentals.html" >Rentals</a></li>
+        <li><a href="services.html" >Services</a></li> 
+        <li><a href="contact.html" class="lastitem">Contact</a></li>
+    </ul> 
+</nav>
+
+<img class=Roll id="IMG" src="./images/5iRXq8goT.webp">
+
+    <script>
+        document.getElementById("IMG").addEventListener("mouseover", changeimage);
+    
+    function changeimage() {
+    
+        var image = document.getElementById("IMG").src = "./images/bicycle_PNG102571.webp" ;
+    }
+    </script>
+<!--Video-->
+<video controls autoplay class="vid" src="./videos/Recording 2024-03-19 233227.mp4">
+</body>
+<!--Bruno Kieszkowski 
+    Southern Illinois University Carbondale
+    Date Developed 3/26/24
+    Date Tested 3/26/24
+-->

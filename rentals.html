@@ -1,0 +1,84 @@
+<!--BoilerPlate-->
+<!DOCTYPE html>
+<html lang="en">
+<!--Header-->
+<head>
+    <title>BrungasBikes.com/rentals</title>
+    <meta name="description" content="A bike shop specializing in repairs, services, rentals and more">
+    <meta name="keywords" content="Bike, Rentals, Bike Renting, Mountain Biking, Road Bikes">
+    <link rel="stylesheet" href="./styles/slicknav.min.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="icon" type="image/webp" href="./images/bicycle-hd-png-hd-bike-clipart-free-download-6305.webp">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+        }); 
+    </script>
+<!--Body-->
+<body> 
+<!--Title-->   
+<h1 >Brungas Bikes</h1>
+<nav id="mobile_menu"></nav> 
+<nav id="nav_menu"> 
+    <ul>
+        <li><a href="index.html" >Home</a></li> 
+        <li><a href="sales.html">Shop</a></li> 
+        <li><a href="rentals.html" class="current">Rentals</a></li>
+        <li><a href="services.html" >Services</a></li> 
+        <li><a href="contact.html" class="lastitem">Contact</a></li>
+    </ul> 
+</nav>
+
+<img class=Roll id="IMG" src="./images/5iRXq8goT.webp">
+
+    <script>
+        document.getElementById("IMG").addEventListener("mouseover", changeimage);
+    
+    function changeimage() {
+    
+        var image = document.getElementById("IMG").src = "./images/bicycle_PNG102571.webp" ;
+    }
+    </script>
+<!--Main Image-->   
+<img class="mainimg" src="./images/Rental-Bike-Image-1.webp">
+
+<!--Description-->   
+<p class="tex">Our Shop offers many services for your biking needs<br>One of these services is rentals. Rentals are a great thing because they offer an inexpensive way to bike without fully commiting to a purchase </p>
+
+<!--Two Column Layout with images and descriptions-->   
+<div class="row">
+    <div class="column">
+        <h2>Road Bikes</h2>
+        <p class="tex">Road Bikes are a great new addition to our rental services. These bikes are great for going long distances very quickly. We offer two different Road Bikes to help you achieve that new year goal.</p>
+        <img class="feat"src="./images/road-bike.png"width="300" height="300">
+        <p class="tex">This is our standard road bike package, It comes with a helmet, lights, and a newly tuned up bike. We charge $20 per day or a $100 per week for this package.</p>
+        <img class="feat"src="./images/RoadBike.jpg"width="300" height="300">
+        <p class="tex">This is our performance package for our Road Bikes. This package comes with a helmet, lights and a tuned up carbonfiber framed bike. We charge $30 a day or $150 a week for this package.</p>
+    </div>
+    <div class="column">
+        <h2>Mountain Bikes</h2>
+        <p class="tex">Road Bikes are great but they're not exactly the best for an off road adventure. To supplement this, we two have time tested mountain bikes to help you realize your more adventurous side.</p>
+        <img class="feat"src="/images/mountain-bike.webp"width="300" height="300">
+        <p class="tex">Our standard Mountain bike package is a great deal for anyone that wants to get into trail riding. This package includes a helmet and flashlight on a standard mountain bike. The fee is $25 a day or $120 a week</p>
+        <img class="feat" src="/images/Fat.png" width="300" heigth="300">
+        <p class="tex">Our trail bike package is for experienced mountain bikers that know they're way around a Mountain Trail. We offer a helmet, flashlight attachment, and waterbottle holder on our trail package. The fee is $35 a day or $175 a week</p>
+    </div>
+    
+</div>
+
+<!--Additional Policy Text-->   
+<p class="tex">All Rental times must be disclosed at time of rental purchase. If bike is not returned by 8 PM of last rental day an additional $50 fee will be added for every day after the end. Calls can be made to extend rental time. Damaged bikes will have an addition fee for repair.</p>
+
+    <!--AnyGraphic-->
+    <img class="graphic" src="./images/bicycle-hd-png-hd-bike-clipart-free-download-6305.webp">
+</body>
+
+
+
+<!--Bruno Kieszkowski 
+    Southern Illinois University Carbondale
+    Date Developed 3/26/24
+    Date Tested 3/26/24
+-->
