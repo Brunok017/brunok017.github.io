@@ -1,0 +1,81 @@
+<!--BoilerPlate-->
+<!DOCTYPE html>
+<html lang="en">
+<!--Header-->
+<head>
+    <title>BrungasBikes.com/Main</title>
+    <meta name="description" content="A Small bike shop located in the student center of SIUC">
+    <meta name="keywords" content="Kieszkowski, SIU, SIUC, Trek, Bike, Bike Repair, Flat Tire">
+    <link rel="stylesheet" href="./styles/slicknav.min.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="icon" type="image/webp" href="./images/bicycle-hd-png-hd-bike-clipart-free-download-6305.webp">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+        }); 
+    </script>
+</head>
+<!--Body-->
+<body>
+    <!--AudioFile-->
+    <!--In order to hear the audio you have to interact
+        with the website. Please press the home tab!-->
+    <embed type="audio/mp3"
+        src="./audio/Royalty Free UkuleleCareFree Ukulele Sound effect.mp3"
+        width="0" height="0"
+        autoplay="true">
+<!--Title-->   
+<h1 >Brungas Bikes</h1>
+<nav id="mobile_menu"></nav> 
+<nav id="nav_menu"> 
+    <ul>
+        <li><a href="index.html" class="current">Home</a></li> 
+        <li><a href="sales.html">Shop</a></li> 
+        <li><a href="rentals.html" >Rentals</a></li>
+        <li><a href="services.html" >Services</a></li> 
+        <li><a href="contact.html" class="lastitem">Contact</a></li>
+    </ul> 
+</nav>
+
+<!--MainGraphic-->
+<img class=Roll id="IMG" src="./images/5iRXq8goT.webp">
+
+<!--Image-->
+<div>
+    <img class="mainimg"src="./images/Bike.jpg" width="700" height="400">
+</div>
+<!--Paragraph-->
+<p><b>Come to Brungas Bikes to Purchase, Repair, or Modify a Bicycle</b></p>
+<h2>Featured</h2>
+<div>
+    <img class="feat"src="./images/electirc.png" width="175" height="175">
+    <img class="feat"src="./images/Fat.png" width="175" height="175">
+    <img class="feat"src="./images/bmx.jpg" width="175" height="175">
+</div>
+<p><b>E-Bikes&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Trail Bikes&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;BMX's</b></p>
+<br>
+<br>
+<p><u>CONTACT US</u><br><br>Email: SalukiSpokes@Gmail.com<br>Phone: (708)833-2762<br>Address: 522 BikeRoad,Carbondale, IL 62901</p>
+<br>
+<br>
+
+<!--Javascript for the main graphic-->
+<script>
+    document.getElementById("IMG").addEventListener("mouseover", changeimage);
+
+function changeimage() {
+
+    var image = document.getElementById("IMG").src = "./images/bicycle_PNG102571.webp" ;
+}
+</script>
+
+</body>
+</html>
+
+<!--Bruno Kieszkowski 
+    Southern Illinois University Carbondale
+    Date Developed 3/26/24
+    Date Tested 3/26/24
+-->
